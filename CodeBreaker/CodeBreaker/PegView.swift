@@ -22,7 +22,6 @@ struct PegView: View {
             .overlay {
                 if peg == Code.missingPeg {
                     pegShape
-                        .strokeBorder(Color.gray)
                 }
             }
             .contentShape(pegShape)
